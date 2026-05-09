@@ -27,7 +27,7 @@ reliability, performance, and governance in modern cloud ecosystems.
 - Advancing next-generation concepts in predictive reliability, AI-driven anomaly detection, and self-healing systems to improve resilience in distributed cloud architectures
 - Research paper(s) submitted to CloudCom 2026, FiCloud 2026, CISS2026, and AIBDCC2026 conferences
 
-# Education and qualifications
+## Education and qualifications
 
 1. **Doctorate in Strategic Leadership**, Liberty University: Lynchburg, Virginia, US , 2021 to present
 2. **Masters Degree in DSAI**, Campbellsville University, Kentucky, US, 2024 to 2026
@@ -35,13 +35,13 @@ reliability, performance, and governance in modern cloud ecosystems.
 4. **Masters Degree in IT Mgmt.**, Campbellsville University: Campbellsville, Kentucky, US, 2018 to 2020
 5. **Academy of Customer Excellence Program**, Harvard Business School Publishing, March 2012
 
-# License & Certification
+## License & Certification
 1. IBM Certified Solution Architect Cloud Computing Infrastructure V1
 2. Elsevier Certified Peer Reviewer Course
 3. ACM Certified Peer Reviewer
 4. Natures Master Certified Peer Reviewer
 
-# Membership and service
+## Membership and service
 - Sigma Xi: Research Triangle Park, North Carolina, US
 - IEEE Membership : Piscataway, New Jersey, US
 - IEEE Young Professionals : Piscataway, New Jersey, US
