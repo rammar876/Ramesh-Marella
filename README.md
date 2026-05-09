@@ -1,8 +1,8 @@
-<center><h1>Profile/CV<h1><center>
-<center>Enterprise Cloud Architect | FinOps | Site Reliability Engineering (SRE)<center>
-<center>ORCID: (https://orcid.org/0009-0007-0985-2591), 
-LinkedIn: (https://www.linkedin.com/in/rameshmarella/)<center>
-<center>email: (rameshmarella@gmail.com) , Location: Dallas, TX, United States<center>
+# Profile/CV
+### Enterprise Cloud Architect | FinOps | Site Reliability Engineering (SRE)
+#### ORCID: (https://orcid.org/0009-0007-0985-2591), 
+#### LinkedIn: (https://www.linkedin.com/in/rameshmarella/)
+#### email: (rameshmarella@gmail.com) , Location: Dallas, TX, United States
 
 ## Biography
 Ramesh Marella is an experienced Enterprise Cloud Architect and Technology Leader with over 22+ years of
