@@ -42,9 +42,9 @@ reliability, performance, and governance in modern cloud ecosystems.
 # Education and qualifications
 
 1. **Doctorate in Strategic Leadership** | Liberty University: Lynchburg, Virginia, US | 2021 to present
-2. **Masters Degree in DSAI (Computer Sciences)** | Campbellsville University, Kentucky, US  | 2024 to 2026
-3. **PMBA in IT (computer Sciences)** | Campbellsville University, Kentucky, US | 2023 to 2024
-4. **Masters Degree in IT Mgmt. (Computer Sciences)** | Campbellsville University: Campbellsville, Kentucky, US | 2018 to 2020
+2. **Masters Degree in DSAI** | Campbellsville University, Kentucky, US  | 2024 to 2026
+3. **PMBA in IT** | Campbellsville University, Kentucky, US | 2023 to 2024
+4. **Masters Degree in IT Mgmt.** | Campbellsville University: Campbellsville, Kentucky, US | 2018 to 2020
 
 # Membership and service
 - Sigma Xi: Research Triangle Park, North Carolina, US
