@@ -1,5 +1,5 @@
 <h2>Enterprise Cloud Architect | FinOps | Site Reliability Engineering (SRE)</h2>
-[ORCID](https://orcid.org/0009-0007-0985-2591), [LinkedIn](https://www.linkedin.com/in/rameshmarella/), [Resume](https://1drv.ms/b/c/1751a51937284eb5/IQDMWRNr1uw_QKcYSFaN7rw6AdXfxagjrP5LDabY6sG1Tb8?e=puDbPZ)
+[ORCID](https://orcid.org/0009-0007-0985-2591), [LinkedIn](https://www.linkedin.com/in/rameshmarella/)
 <p>email: rameshmarella@gmail.com  , Location: Dallas, TX, United States</p>
 
 ## Biography
