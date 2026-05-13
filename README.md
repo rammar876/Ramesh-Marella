@@ -43,6 +43,7 @@ reliability, performance, and governance in modern cloud ecosystems.
 4. Natures Master Certified Peer Reviewer
 
 ## Membership and service
+- BCS, The Chartered Institute for IT, 3 Newbridge Square, Swindon, SN1 1BY
 - Sigma Xi: Research Triangle Park, North Carolina, US
 - IEEE Membership : Piscataway, New Jersey, US
 - IEEE Young Professionals : Piscataway, New Jersey, US
