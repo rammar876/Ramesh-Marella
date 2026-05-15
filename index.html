@@ -45,7 +45,32 @@
       background: linear-gradient(135deg, #0a192f 0%, #123b73 100%);
       color: var(--white);
       padding: 72px 20px 56px;
-      text-align: center;
+    }
+
+    .hero-container {
+      max-width: 1150px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 36px;
+      flex-wrap: wrap;
+    }
+
+    .profile-pic {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid rgba(255,255,255,0.9);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.35);
+      background: #ffffff;
+    }
+
+    .hero-text {
+      flex: 1;
+      min-width: 280px;
+      text-align: left;
     }
 
     header h1 {
@@ -224,18 +249,39 @@
         justify-content: flex-start;
         overflow-x: auto;
       }
+
+      .hero-container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-text {
+        text-align: center;
+      }
+
+      .profile-pic {
+        width: 140px;
+        height: 140px;
+      }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Ramesh Marella</h1>
-    <p>Cloud Architect | Site Reliability Engineering Leader | Multi-Cloud Governance Specialist</p>
-    <p>Building resilient, cost-optimized, and governance-driven cloud platforms for enterprise-scale systems.</p>
-    <div class="cta-row">
+    <div class="hero-container">
+      <img src="profile.jpg" alt="Ramesh Marella" class="profile-pic" />
+
+      <div class="hero-text">
+        <h1>Ramesh Marella</h1>
+        <p>Cloud Architect | Site Reliability Engineering Leader | Multi-Cloud Governance Specialist</p>
+        <p>Building resilient, cost-optimized, and governance-driven cloud platforms for enterprise-scale systems.</p>
+
+        <div class="cta-row">
       <a class="button" href="#mcgr">Explore MCGR Framework</a>
       <a class="button secondary" href="#publications">View Publications</a>
       <a class="button secondary" href="#contact">Contact</a>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -247,17 +293,10 @@
       <a href="#publications">Publications</a>
       <a href="#activities">Professional Activities</a>
       <a href="#contact">Contact</a>
-      <a href="Profile-CV.html">Profile-CV</a>
     </div>
   </nav>
 
   <main>
-    <section class="profile-section">
-      <div class="profile-container">
-        <img src="avatar.jpg" alt="Profile Picture" class="profile-pic">
-      </div>
-    </section>
-
     <section id="about">
       <h2>About</h2>
       <p class="subtle">
@@ -444,10 +483,9 @@
         I welcome professional collaboration, research discussion, peer review opportunities, and cloud architecture engagements.
       </p>
       <p>
-        <strong>Phone:</strong> <a href="tel:+16502559643">+1 (650) 255 9643</a><br />
         <strong>Email:</strong> <a href="mailto:rameshmarella@gmail.com">rameshmarella@gmail.com</a><br />
-        <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rameshmarella/">https://www.linkedin.com/in/rameshmarella/</a><br />
-        <strong>GitHub:</strong> <a href="https://github.com/rammar876">https://github.com/rammar876</a>
+        <strong>LinkedIn:</strong> <a href="#">https://www.linkedin.com/in/rameshmarella/</a><br />
+        <strong>GitHub:</strong> <a href="#">https://rammar876.github.io/Ramesh-Marella/</a>
       </p>
     </section>
   </main>
@@ -457,4 +495,3 @@
   </footer>
 </body>
 </html>
-
