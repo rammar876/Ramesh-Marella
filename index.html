@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ramesh Marella | Cloud Architect & SRE Leader</title>
+  <meta name="description" content="Professional portfolio of Ramesh Marella, Cloud Architect and Site Reliability Engineering leader specializing in multi-cloud governance, reliability, cost optimization, and disaster recovery." />
+  <style>
+    :root {
+      --navy: #0a192f;
+      --blue: #2563eb;
+      --light-blue: #eff6ff;
+      --slate: #475569;
+      --dark: #111827;
+      --muted: #f8fafc;
+      --border: #e2e8f0;
+      --white: #ffffff;
+      --green: #16a34a;
+    }
+
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: var(--dark);
+      background: var(--muted);
+    }
+
+    a {
+      color: var(--blue);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0a192f 0%, #123b73 100%);
+      color: var(--white);
+      padding: 72px 20px 56px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      letter-spacing: -1px;
+    }
+
+    header p {
+      max-width: 850px;
+      margin: 10px auto;
+      font-size: 1.15rem;
+      color: #dbeafe;
+    }
+
+    .cta-row {
+      margin-top: 28px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 14px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 18px;
+      border-radius: 999px;
+      background: var(--white);
+      color: var(--navy);
+      font-weight: 700;
+      box-shadow: 0 8px 22px rgba(0, 0, 0, 0.18);
+    }
+
+    .button.secondary {
+      background: transparent;
+      color: var(--white);
+      border: 1px solid rgba(255, 255, 255, 0.45);
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(255, 255, 255, 0.96);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(10px);
+    }
+
+    nav .nav-inner {
+      max-width: 1100px;
+      margin: auto;
+      padding: 12px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: center;
+      font-size: 0.95rem;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 28px 20px 60px;
+    }
+
+    section {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 34px;
+      margin: 22px 0;
+      box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      color: var(--navy);
+      font-size: 1.8rem;
+    }
+
+    h3 {
+      color: var(--navy);
+      margin-bottom: 8px;
+    }
+
+    .subtle {
+      color: var(--slate);
+      margin-top: 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+      margin-top: 20px;
+    }
+
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      background: #ffffff;
+    }
+
+    .metric {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--blue);
+      margin-bottom: 6px;
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 6px 10px;
+      margin: 4px 6px 4px 0;
+      border-radius: 999px;
+      background: var(--light-blue);
+      color: #1d4ed8;
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+
+    .highlight {
+      background: var(--light-blue);
+      border-left: 5px solid var(--blue);
+      border-radius: 12px;
+      padding: 18px;
+      margin-top: 16px;
+    }
+
+    .diagram {
+      margin-top: 24px;
+      padding: 24px;
+      border-radius: 18px;
+      background: linear-gradient(180deg, #f8fafc 0%, #eef6ff 100%);
+      border: 1px solid var(--border);
+      overflow-x: auto;
+    }
+
+    .diagram svg {
+      width: 100%;
+      min-width: 720px;
+      height: auto;
+    }
+
+    .timeline {
+      border-left: 3px solid var(--blue);
+      padding-left: 18px;
+      margin-top: 18px;
+    }
+
+    .timeline-item {
+      margin-bottom: 18px;
+    }
+
+    .timeline-item strong {
+      color: var(--navy);
+    }
+
+    .evidence-list li {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: var(--slate);
+    }
+
+    @media (max-width: 700px) {
+      section {
+        padding: 24px;
+      }
+
+      nav .nav-inner {
+        justify-content: flex-start;
+        overflow-x: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ramesh Marella</h1>
+    <p>Cloud Architect | Site Reliability Engineering Leader | Multi-Cloud Governance Specialist</p>
+    <p>Building resilient, cost-optimized, and governance-driven cloud platforms for enterprise-scale systems.</p>
+    <div class="cta-row">
+      <a class="button" href="#mcgr">Explore MCGR Framework</a>
+      <a class="button secondary" href="#publications">View Publications</a>
+      <a class="button secondary" href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="#about">About</a>
+      <a href="#mcgr">MCGR Framework</a>
+      <a href="#impact">Impact</a>
+      <a href="#publications">Publications</a>
+      <a href="#activities">Professional Activities</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p class="subtle">
+        I am a Cloud Architecture and Site Reliability Engineering professional specializing in multi-cloud governance,
+        disaster recovery, cost optimization, observability, and enterprise system reliability.
+      </p>
+      <p>
+        My work focuses on helping organizations modernize cloud platforms while improving operational resilience,
+        reducing infrastructure waste, and strengthening governance controls. I have led enterprise initiatives involving
+        cloud cost optimization, SRE practices, disaster recovery readiness, and secure multi-cloud operations.
+      </p>
+      <div class="grid">
+        <div class="card">
+          <h3>Core Focus</h3>
+          <p>Multi-cloud governance, SRE, disaster recovery, observability, and FinOps-driven optimization.</p>
+        </div>
+        <div class="card">
+          <h3>Cloud Expertise</h3>
+          <p>AWS, Azure, containerized platforms, reliability engineering, monitoring, automation, and compliance alignment.</p>
+        </div>
+        <div class="card">
+          <h3>Research Direction</h3>
+          <p>Practical frameworks that connect governance, cost efficiency, resilience, and reliability into measurable outcomes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="mcgr">
+      <h2>MCGR Framework</h2>
+      <p class="subtle">Multi-Cloud Governance & Reliability Model</p>
+      <div class="highlight">
+        <p>
+          The <strong>MCGR Model</strong> is a practical framework that integrates cloud governance, observability,
+          cost optimization, and disaster recovery into a continuous feedback-driven operating model for enterprise
+          multi-cloud environments.
+        </p>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h3>1. Governance & Policy</h3>
+          <p>IAM, RBAC, Zero Trust, compliance controls, policy-as-code, and operating standards.</p>
+        </div>
+        <div class="card">
+          <h3>2. Observability & SRE</h3>
+          <p>SLOs, SLIs, monitoring, incident response, automation, and performance visibility.</p>
+        </div>
+        <div class="card">
+          <h3>3. Cost Optimization</h3>
+          <p>Rightsizing, reserved capacity modeling, utilization analytics, and FinOps reporting.</p>
+        </div>
+        <div class="card">
+          <h3>4. DR & Resilience</h3>
+          <p>RTO/RPO planning, multi-region readiness, failover validation, and resilience testing.</p>
+        </div>
+      </div>
+
+      <div class="diagram" aria-label="MCGR framework diagram">
+        <svg viewBox="0 0 1100 640" role="img">
+          <defs>
+            <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+              <path d="M0,0 L0,6 L9,3 z" fill="#2563eb" />
+            </marker>
+          </defs>
+
+          <rect x="390" y="30" width="320" height="90" rx="18" fill="#0a192f" />
+          <text x="550" y="68" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="700">Governance & Policy</text>
+          <text x="550" y="96" text-anchor="middle" fill="#dbeafe" font-size="15">IAM • Compliance • Zero Trust</text>
+
+          <rect x="360" y="180" width="380" height="100" rx="18" fill="#2563eb" />
+          <text x="550" y="222" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="700">Observability & SRE</text>
+          <text x="550" y="250" text-anchor="middle" fill="#dbeafe" font-size="15">SLO/SLI • Monitoring • Automation</text>
+
+          <rect x="120" y="360" width="320" height="100" rx="18" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+          <text x="280" y="402" text-anchor="middle" fill="#0a192f" font-size="21" font-weight="700">Cost Optimization</text>
+          <text x="280" y="430" text-anchor="middle" fill="#475569" font-size="15">Rightsizing • Usage Analytics • FinOps</text>
+
+          <rect x="660" y="360" width="320" height="100" rx="18" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+          <text x="820" y="402" text-anchor="middle" fill="#0a192f" font-size="21" font-weight="700">DR & Resilience</text>
+          <text x="820" y="430" text-anchor="middle" fill="#475569" font-size="15">Failover • RTO/RPO • Replication</text>
+
+          <rect x="300" y="520" width="500" height="90" rx="18" fill="#ffffff" stroke="#0a192f" stroke-width="2" />
+          <text x="550" y="558" text-anchor="middle" fill="#0a192f" font-size="22" font-weight="700">Multi-Cloud Infrastructure</text>
+          <text x="550" y="586" text-anchor="middle" fill="#475569" font-size="15">AWS • Azure • Hybrid Platforms</text>
+
+          <line x1="550" y1="120" x2="550" y2="180" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)" />
+          <line x1="460" y1="280" x2="320" y2="360" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)" />
+          <line x1="640" y1="280" x2="780" y2="360" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)" />
+          <line x1="280" y1="460" x2="460" y2="520" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)" />
+          <line x1="820" y1="460" x2="640" y2="520" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)" />
+
+          <path d="M 940 540 C 1040 420, 1040 190, 720 90" fill="none" stroke="#16a34a" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow)" />
+          <text x="925" y="260" fill="#166534" font-size="18" font-weight="700" transform="rotate(-78 925 260)">Continuous Feedback Loop</text>
+        </svg>
+      </div>
+    </section>
+
+    <section id="impact">
+      <h2>Selected Impact Areas</h2>
+      <p class="subtle">Representative outcomes from cloud governance, reliability, and cost optimization initiatives.</p>
+      <div class="grid">
+        <div class="card">
+          <div class="metric">~35%</div>
+          <strong>Cloud Cost Reduction</strong>
+          <p>Achieved through rightsizing, usage analysis, reserved capacity planning, and optimization dashboards.</p>
+        </div>
+        <div class="card">
+          <div class="metric">99.9%+</div>
+          <strong>Reliability Target</strong>
+          <p>Supported through SLO-based monitoring, incident response improvements, and resilience engineering practices.</p>
+        </div>
+        <div class="card">
+          <div class="metric">RTO/RPO</div>
+          <strong>DR Readiness</strong>
+          <p>Improved disaster recovery planning through failover validation, replication checks, and multi-region architecture.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications & Research</h2>
+      <p>
+        My current research focuses on practical, industry-oriented frameworks for multi-cloud governance, cloud reliability,
+        cost optimization, and disaster recovery modernization.
+      </p>
+      <div class="card">
+        <h3>A Practical Framework for Multi-Cloud Governance and Reliability Optimization: The MCGR Model</h3>
+        <p>
+          This paper introduces the MCGR Model and explains how governance, observability, cost optimization, and resilience
+          can be integrated into one operating framework for enterprise cloud environments.
+        </p>
+        <p>
+          <a href="#">Download PDF</a> · <a href="#">View LaTeX Source</a> · <a href="#">GitHub Repository</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="activities">
+      <h2>Professional Activities</h2>
+      <ul class="evidence-list">
+        <li><strong>Peer Review:</strong> Active participation in peer-review activities through PreReview and related scholarly review platforms.</li>
+        <li><strong>Peer Review Training:</strong> Completed peer-review training/certifications sponsored by Elsevier, ACM, and NMO.</li>
+        <li><strong>Technical Focus:</strong> Cloud architecture, SRE, multi-cloud governance, disaster recovery, observability, and FinOps.</li>
+        <li><strong>Research Contribution:</strong> Author of the MCGR Model for governance-driven reliability optimization.</li>
+      </ul>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <strong>Research & Publication</strong>
+          <p>Developing applied frameworks and papers focused on multi-cloud governance and enterprise reliability.</p>
+        </div>
+        <div class="timeline-item">
+          <strong>Industry Practice</strong>
+          <p>Leading cloud modernization, disaster recovery readiness, cost optimization, and SRE initiatives.</p>
+        </div>
+        <div class="timeline-item">
+          <strong>Professional Review</strong>
+          <p>Building external validation through peer-review participation and judging/reviewer readiness activities.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="expertise">
+      <h2>Expertise Areas</h2>
+      <p>
+        <span class="pill">Cloud Architecture</span>
+        <span class="pill">Site Reliability Engineering</span>
+        <span class="pill">Multi-Cloud Governance</span>
+        <span class="pill">Disaster Recovery</span>
+        <span class="pill">FinOps</span>
+        <span class="pill">Observability</span>
+        <span class="pill">SLO / SLI Design</span>
+        <span class="pill">Zero Trust</span>
+        <span class="pill">AWS</span>
+        <span class="pill">Azure</span>
+        <span class="pill">Automation</span>
+        <span class="pill">Compliance</span>
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        I welcome professional collaboration, research discussion, peer review opportunities, and cloud architecture engagements.
+      </p>
+      <p>
+        <strong>Phone:</strong> <a href="Phone:+16502559643">1-650-255-9643</a><br />
+        <strong>Email:</strong> <a href="mailto:rameshmarella@gmail.com">rameshmarella@gmail.com</a><br />
+        <strong>LinkedIn:</strong> <a href="#">https://www.linkedin.com/in/rameshmarella/</a><br />
+        <strong>GitHub:</strong> <a href="#">https://github.com/rammar876</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Ramesh Marella. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
